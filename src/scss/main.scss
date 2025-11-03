@@ -1,9 +1,9 @@
 @use 'core/reset';
 @use 'components/code';
-
+@use 'components/links';
 @use 'layout/page';
 @use 'layout/header';
+@use 'layout/footer';
 @use 'pages/index';
 @use 'layout/page_hero';
 @use 'layout/_main';
-@use 'layout/footer';
