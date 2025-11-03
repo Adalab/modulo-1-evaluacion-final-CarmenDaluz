@@ -1,0 +1,55 @@
+@use '../core/variables' as vars;
+main {
+    flex: 1;
+}
+
+.page__whitebanner {
+ font-family: vars.$font-secondary;
+
+ background-color: rgb(255, 255, 255);
+ padding: 2rem;
+    h1 {
+        color: black;
+        padding-bottom: 1rem;
+        font-family: vars.$font-main;
+    }
+
+    h2 {
+        color: vars.$color-green;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+    p {
+        color: rgb(97, 97, 97);
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 3rem;
+        background-color: white;
+        padding: 1rem 3rem;
+        text-decoration: none;
+        color: vars.$color-green;
+        border-radius: 99px;
+        border: 0.2rem solid vars.$color-green; 
+        
+        font-family: vars.$font-main;
+        text-align: center;
+        font-size: 1.7rem;
+        font-weight: 500;
+        
+        &:hover {
+            background-color: vars.$color-green;
+            color: white;
+        }
+    }
+ 
+ 
+      
+}
+ 

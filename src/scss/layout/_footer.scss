@@ -1,0 +1,34 @@
+@use '../core/variables' as vars;
+
+.page__footer {
+    font-family: vars.$font-secondary;
+    background-color: rgb(94, 93, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 3rem;
+
+    .text-footer {
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        color: white;
+        line-height: 2;
+        text-align: center;
+        font-family: vars.$font-secondary;
+    }
+    h2 {
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+    .copy-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        
+    }
+}

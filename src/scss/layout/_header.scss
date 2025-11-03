@@ -1,0 +1,14 @@
+.page__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 3rem;
+  margin-bottom: 3rem;
+  background-color: #6c933e;
+  padding: 1rem;
+  position: fixed;
+}
+
+.page__header:hover {
+  background-color: #3e5524;
+}

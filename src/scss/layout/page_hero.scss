@@ -1,0 +1,51 @@
+@use '../core/variables' as vars;
+
+main{
+    height: 100vh;
+    
+}
+
+.page__hero {
+    color: white;
+    font-family: vars.$font-main;
+    
+    background-image: url('/images/cover.jpeg');
+    background-position: 80% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+
+        h1 {
+            font-size: 2.7rem;
+            font-weight: 500; /*ancho letra*/
+        }
+        
+        h2 {
+            padding: 3.5rem;
+            padding-top: 0;
+            font-size: 1.5rem;
+            font-weight: 300;  
+        }
+
+        .arrow {
+    
+            background-color: white;
+            padding: 1rem;
+            border-radius: 99%;
+        }
+        
+        .arrow:hover {
+            background-color: #3e5524;
+        }
+        
+        
+}
+
+
+
