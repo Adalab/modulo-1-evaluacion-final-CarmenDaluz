@@ -5,9 +5,11 @@
  background-color: rgb(255, 255, 255);
  padding: 2rem;
  display: flex;
+ max-width: 100%;
  flex-direction: column;
  text-align: left;
  gap: 1rem;
+ 
     h1 {
         color: black;
         padding-bottom: 1rem;
@@ -27,6 +29,7 @@
         font-size: 1.2rem;
         font-weight: 500;
         line-height: 1.5;
+        
     }
 }
 
@@ -76,6 +79,8 @@
     }
 }
  
+  
+
 /* DISEÑO TABLET*/
     @media screen and (min-width: 736px) {
        .green-banner {

@@ -60,10 +60,16 @@
             display: flex;
             flex-direction: row;
             gap: 5rem;
-            .text-footer, .social-media {
+            .text-footer, .social-media, .copy-footer {
                 text-align: left;
-            }
-            
+                align-self: flex-start;
+            } 
         }
+    }
 
+    /* DISEÑO DESKTOP*/
+    @media screen and (min-width: 1280px) {
+        .page__footer {
+            justify-content: space-around;
+        }
     }

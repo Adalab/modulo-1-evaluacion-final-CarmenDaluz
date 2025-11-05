@@ -23,6 +23,9 @@
             font-size: 2.5rem;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
             font-weight: 500; /*ancho letra*/
+            max-width: 600px;
+            margin: 0 auto
+            
         }
         
         h2 {
@@ -62,9 +65,9 @@
             width: 70px;
             height: 70px;
         }
-
     }
-}
+
+    
     
 
-
+}

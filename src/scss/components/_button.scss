@@ -3,7 +3,9 @@
 
 .button {
         
-        display: flex;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         background-color: white;
         padding: 0.8rem 3.5rem;
         text-decoration: none;
@@ -14,6 +16,8 @@
         font-size: 1.4rem;
         font-weight: 500;
         transition: background 0.5s;
+        max-width: 100%;
+        box-sizing: border-box;
         
         &--first {
             margin-right: auto;
