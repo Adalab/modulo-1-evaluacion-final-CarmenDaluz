@@ -7,9 +7,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;  
+    gap: 2rem;
     padding: 3rem;
+    position: relative;
     
-
+    .arrow-up {
+        position: absolute;
+        top: -15px; 
+        left: 50%;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 90%;
+        
+        
+    }
     .text-footer, .social-media {
         display: flex;
         flex-direction: column;
