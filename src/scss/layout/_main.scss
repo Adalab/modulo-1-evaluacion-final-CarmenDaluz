@@ -1,7 +1,4 @@
 @use '../core/variables' as vars;
-main {
-    flex: 1;
-}
 
 .page__whitebanner {
  font-family: vars.$font-secondary;
@@ -33,41 +30,6 @@ main {
     }
 }
 
-.button {
-        
-        display: flex;
-        background-color: white;
-        padding: 0.8rem 3.5rem;
-        text-decoration: none;
-        color: vars.$color-green;
-        border-radius: 99px;
-        border: 0.2rem solid vars.$color-green; 
-        font-family: vars.$font-main;
-        font-size: 1.4rem;
-        font-weight: 500;
-        transition: background 0.5s;
-        
-        &--first {
-            margin-right: auto;
-            &:hover {
-            background-color: vars.$color-green;
-            color: white;
-            
-        }
-        }
-
-        &--second {
-            display: inline-block;
-            background-color: vars.$color-green;
-            color: white;
-            border: none;
-            margin: 0 auto 10.5px;
-            &:hover {
-                background-color: black;
-            }
-        }
-    }
- 
  .card {
     padding: 1rem;
     gap: 0.5rem;
@@ -89,14 +51,22 @@ main {
  }
       
 .green-banner {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    text-align: center;
     font-family: vars.$font-main;
     padding: 1.3rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background-color: vars.$color-grey-light;
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     h3 {
         color: grey;
         font-size: 1rem;
@@ -106,3 +76,15 @@ main {
     }
 }
  
+/* DISEÑO TABLET*/
+    @media screen and (min-width: 736px) {
+       .green-banner {
+        
+            .cards {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+
+       } 
+    }

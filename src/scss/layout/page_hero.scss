@@ -7,48 +7,64 @@
     font-family: vars.$font-main;
     
     background-image: url('/images/cover.jpeg');
-    
     background-size: cover;
     background-position: 90% center;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    
 
-      
+        .page__hero-text {
+            margin: 4rem;
+        }
+        
         h1 {
             font-size: 2.5rem;
-            margin: 1rem;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
             font-weight: 500; /*ancho letra*/
-            
-            
         }
         
         h2 {
-            
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
             font-size: 1.2rem;
             font-weight: 300;  
         }
 
         .arrow {
-    
             background-color: white;
             margin: 1rem;
             padding: 1rem;
             border-radius: 99%;
             transition: background 0.2s;
+            width: 50px;
+            height: 50px;
+            
         }
         
         .arrow:hover {
             background-color: #3e5524;
         }
         
-        
-        
-}
+    /* DISEÑO TABLET*/
+    @media screen and (min-width: 736px) {
+        .page__hero {
+            background-position: 50% center;
+        }
+        h1 {
+            font-size: 4.5rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+           
+        }
+        .arrow {
+            width: 70px;
+            height: 70px;
+        }
 
+    }
+}
+    
 
 
